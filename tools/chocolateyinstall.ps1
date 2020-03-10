@@ -56,11 +56,11 @@ $packageArgs = @{
   validExitCodes= @(0) #please insert other valid exit codes here
 }
 
-#Install-ChocolateyPackage @packageArgs # https://chocolatey.org/docs/helpers-install-chocolatey-package
+Install-ChocolateyPackage @packageArgs # https://chocolatey.org/docs/helpers-install-chocolatey-package
 #Install-ChocolateyZipPackage @packageArgs # https://chocolatey.org/docs/helpers-install-chocolatey-zip-package
 ## If you are making your own internal packages (organizations), you can embed the installer or 
 ## put on internal file share and use the following instead (you'll need to add $file to the above)
-Install-ChocolateyInstallPackage @packageArgs # https://chocolatey.org/docs/helpers-install-chocolatey-install-package
+#Install-ChocolateyInstallPackage @packageArgs # https://chocolatey.org/docs/helpers-install-chocolatey-install-package
 
 ## Main helper functions - these have error handling tucked into them already
 ## see https://chocolatey.org/docs/helpers-reference
@@ -69,7 +69,7 @@ Install-ChocolateyInstallPackage @packageArgs # https://chocolatey.org/docs/help
 ## - https://chocolatey.org/docs/helpers-install-chocolatey-package
 ## - https://chocolatey.org/docs/helpers-install-chocolatey-install-package
 ## add additional optional arguments as necessary
-##Install-ChocolateyPackage $packageName $fileType $silentArgs $url [$url64 -validExitCodes $validExitCodes -checksum $checksum -checksumType $checksumType -checksum64 $checksum64 -checksumType64 $checksumType64]
+#Install-ChocolateyPackage $packageName $fileType $silentArgs $url [$url64 -validExitCodes $validExitCodes -checksum $checksum -checksumType $checksumType -checksum64 $checksum64 -checksumType64 $checksumType64]
 
 ## Download and unpack a zip file - https://chocolatey.org/docs/helpers-install-chocolatey-zip-package
 ##Install-ChocolateyZipPackage $packageName $url $toolsDir [$url64 -checksum $checksum -checksumType $checksumType -checksum64 $checksum64 -checksumType64 $checksumType64]
