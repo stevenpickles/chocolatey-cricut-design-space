@@ -42,7 +42,8 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- <copyright>Year Software Vendor</copyright> -->
     <licenseUrl>https://us.cricut.com/legal</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>-->
-    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
+    <!-- Since Cricut Design Space is closed source there is no projectSourceUrl to link -->
+    <!-- <projectSourceUrl></projectSourceUrl>-->
     <docsUrl>https://help.cricut.com/hc/en-us/articles/360009428814-Downloading-and-Installing-Design-Space#windowsinstall</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://help.cricut.com/hc/en-us/articles/360020316674-Cricut-Contact-Information</bugTrackerUrl>
