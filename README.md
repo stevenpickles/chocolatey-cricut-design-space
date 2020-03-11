@@ -7,7 +7,9 @@ Chocolatey package configuration for the Cricut Design Space application.
 
 ## Creating Nuget Package
 
-Clone the repository and use Chocolatey to create the package
+Clone the repository and use Chocolatey to create the package:
+
+    $ choco pack
 
 ## Testing Nuget Package
 
