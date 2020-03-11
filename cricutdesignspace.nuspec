@@ -45,7 +45,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
     <docsUrl>https://help.cricut.com/hc/en-us/articles/360009428814-Downloading-and-Installing-Design-Space#windowsinstall</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
-    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <bugTrackerUrl>https://help.cricut.com/hc/en-us/articles/360020316674-Cricut-Contact-Information</bugTrackerUrl>
     <tags>cricut design space</tags>
     <summary>Design and wirelessly cut using Cricut Explore and Cricut Maker machines.</summary>
     <description>Cricut Design Space is a companion app that lets you design and wirelessly cut with Cricut Explore and Cricut Maker machines. Create a project from scratch or browse thousands of images, predesigned Make It Now projects, and fonts in the Cricut Image Library.</description>
