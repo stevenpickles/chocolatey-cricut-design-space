@@ -49,7 +49,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <tags>cricut design space</tags>
     <summary>Design and wirelessly cut using Cricut Explore and Cricut Maker machines.</summary>
     <description>Cricut Design Space is a companion app that lets you design and wirelessly cut with Cricut Explore and Cricut Maker machines. Create a project from scratch or browse thousands of images, predesigned Make It Now projects, and fonts in the Cricut Image Library.</description>
-    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <releaseNotes>No release notes are available from the manufacturer.</releaseNotes>
     <!-- =============================== -->      
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
