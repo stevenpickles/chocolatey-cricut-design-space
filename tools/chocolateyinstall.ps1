@@ -1,7 +1,7 @@
 ﻿
 $ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://staticcontent.cricut.com/a/software/win32-native/Cricut%20Design%20Space%20Install%20v5.6.19.exe'
+$url        = 'https://staticcontent.cricut.com/a/software/win32-native/Cricut%20Design%20Space%20Install%20v6.2.100.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -11,7 +11,7 @@ $packageArgs = @{
 
   softwareName  = 'cricutdesignspace*'
 
-  checksum      = 'E9096A6E69A46AE816075392B722436237811A48E570C5007C9822B7C31B2753'
+  checksum      = '04DC285D4CED444E0D01AACEC88E59677315E6CCC0C31A8755297ECCF16D67CF'
   checksumType  = 'sha256'
 
   silentArgs   = '/S'
