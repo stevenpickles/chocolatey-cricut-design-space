@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>cricutdesignspace</id>
-    <version>6.2.100</version>
+    <version>6.6.121</version>
     <owners>stevenpickles</owners>
     <title>CricutDesignSpace (Install)</title>
     <authors>Cricut</authors>
